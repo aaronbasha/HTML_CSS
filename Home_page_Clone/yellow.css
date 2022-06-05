@@ -1,0 +1,243 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+    }
+
+
+    .mastercontainer{
+        margin-top: px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-left: 130px;
+        width: 1200px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .navigation{
+        background-color: rgb(255, 255, 255);
+        height: 90px;
+        margin-right: 30px;
+    }
+
+    /* -----------------------------------Children of Navigation */
+
+    .easysearchsign{
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+    }
+
+    .easybay{
+        display: flex;
+    }
+    .imgbackground{
+        background-color: rgb(79, 216, 198);
+    }
+    .easytext{
+        margin-top: 3px;
+        margin-left: 20px;
+        font-size: 25px;
+        font-weight: lighter;
+    }
+
+    #searchbar {
+        margin-top: 20px;
+        padding-left: 15px;
+        font-size: large;
+        width: 660px;
+        height: 50px;
+        border-radius: 50px;
+        border: 5px;
+        background-color: rgb(255, 255, 255);
+        color: aquamarine;
+        border: 3px solid rgb(0, 0, 0);
+    }
+
+    .signin{
+        display: flex;
+    }
+    .signtext{
+        margin-top: 22px;
+        margin-right: 20px;
+        font-size: 25px;
+    }
+
+        /* -----------------------------------Sub Navigation */
+
+    .subnavigation{
+        background-color: rgb(255, 255, 255);
+        height: 50px;
+    }
+    .links{
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+        padding-top: 15px;
+        padding-right: 45px;
+        font-size: larger;
+    }
+
+    .blackdiv{
+        height: 5px;
+        background-color: black;
+        margin-left: 0px;
+        margin-right: 43px;
+    }
+
+    .banner{
+        background-color: rgb(255, 255, 255);
+        margin-left: 55px;
+        margin-right: 55px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        text-align: center;
+        font-size: 52px;
+        font-weight: lighter;
+    }
+        /* -----------------------------------Top Container */
+    .topcontainer{
+        display: flex;
+        background-color: rgb(255, 255, 255);
+        width: 1165px;
+        height: 385px;
+        padding-bottom: 30px;
+    }
+    
+       /* -----------------------------------Top Container children */
+    .topcontainerleft{
+        display: flex;
+        background-color: antiquewhite;
+        width: 725px;
+        height: 380px;
+    }
+    .topcontainerright{
+        margin-left: 33px;
+        background-color: rgb(255, 255, 255);
+        width: 400px;
+        height: 380px;
+    }
+        /* -----------------------------------Top Left and Right Children */
+
+        /* --------------------------left */
+
+    .leftblock{
+        background-color: rgb(79, 216, 198);
+        width: 362px;
+        height: 380px;
+    }
+    .textbox{
+        background-color: rgb(79, 216, 198);
+        font-size: 45px;
+        padding-top: 50px;
+        padding-left: 30px;
+        width: 300px;
+        height: 270px;
+        text-align: center;
+        color: white;
+}
+    .discover{
+        width: 362px;
+        height: 0px;
+        text-align: center;
+        color: white;
+        margin-top: -20px;
+    }
+    .imagebox{
+        margin-left: 362px;
+        margin-top: -283px;
+        transform: scale(1.1);
+
+    }
+    /* .firstimage {
+        width: 363px;
+        height: 380px;
+    } */
+
+
+    .firstimage:hover{
+        text-decoration: none;
+    }
+    .hide{
+        display: none;
+    }
+
+    .firstimage:hover img:first-child{
+        display: none;
+        
+
+    }
+    .firstimage:hover img:last-child{
+        display: inline-block;
+        
+    }
+
+
+
+
+/* ---------------------------Right */
+
+.topimageblock{
+    background-color: aliceblue;
+    width: 400px;
+    height: 240px;
+}
+
+.bottomaloeblock{
+    margin-top: 30px;
+    background-color: rgb(79, 216, 198);
+    width: 400px;
+    height: 109px;
+}
+
+#aloeimage{
+    width: 400px;
+    height: 240px;
+}
+.aloetext{
+    padding-top: 30px;
+    padding-left: 25px;
+    width: 400px;
+    height: 109px;
+    text-align: left;
+    font-size: 35px;
+    color: white;
+}
+
+
+/* --------------------Footer----------- */
+
+.footercontainer{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: rgb(189, 235, 229);
+    width: 1160px;
+    height: 300px;
+}
+
+.rowblocks{
+    background-color: rgb(189, 235, 229);
+    margin-left: 10px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 1140px;
+    height: 200px;
+}
+
+
+#circleimage{
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 150px;
+    border-radius: 800px;
+}
+
+.footerplantnames{
+    
+    display: flex;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+    margin-top: -45px;
+    font-size: 20px;
+}
